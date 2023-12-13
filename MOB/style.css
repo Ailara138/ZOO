@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.MOB1 {
+    width: 320px;
+    height: 767px; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    background: url(/IMG/mob1_fon.png) no-repeat;
+}
+.button-start {
+    width: 210px;
+    height: 60px; 
+    background: url(/IMG/Button_welcome.png) no-repeat;
+    margin-bottom: 40px;
+
+}
+
+.MOB2 {
+    width: 320px;
+    height: 767px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    background: url(/IMG/mob2_fon.png) no-repeat;
+    padding-bottom: 20px;
+}
+
+.SERVICE {
+    width: 260px;
+    height: 60px;
+    background: url(/IMG/SERVICE.png) no-repeat;
+}
+.CONTACTS {
+    width: 260px;
+    height: 60px;
+    background: url(/IMG/CONTACTS.png) no-repeat;
+    margin-bottom: 90px;
+}
+
+.MOB3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 320px;
+    height: 767px;
+    gap: 20px;
+    background: url(/IMG/mob3_fon.png) no-repeat;
+
+}
+
+h1 {
+    color: #EF7C00;
+    font-family: Chiller;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.013%;
+    text-align: center;
+    
+
+}
+.HIGHLIGHTS-TEXT > h1,
+.HITS-WITH-KIDS-TEXT > h1,
+.FEEDINGS-TEXT > h1 {
+    color: #EF7C00;
+    font-family: Chiller;
+    font-size: 33.508px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.013%;;
+    
+}
+
+.HIGHLIGHTS-TEXT > p > span,
+.HITS-WITH-KIDS-TEXT > p > span,
+.FEEDINGS-TEXT > p > span {
+    color: #EF7C00;
+    font-family: Segoe UI;
+    font-size: 11.599px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.013%;
+}
+
+.HIGHLIGHTS-TEXT > p,
+.HITS-WITH-KIDS-TEXT > p,
+.FEEDINGS-TEXT > p {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 11.599px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 137.013%;
+}
+
+#HIGHLIGHTS {
+
+    display: flex;
+    min-width: 320px;
+    height: 767px;
+    flex-direction: column;
+    align-content: center;
+    flex-flow: column wrap;
+    
+    
+}
+.HIGHLIGHTS-TEXT {
+    display: flex;
+    width: 270px;
+    min-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.MOB4 {
+    min-width: 320px;
+    height: 767px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: url(/IMG/mob4_fon.png) no-repeat;
+}
+
+
+.HITS-WITH-KIDS-TEXT {
+    display: flex;
+    width: 270px;
+    min-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.MOB5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 320px;
+    height: 767px;
+    gap: 20px;
+    background: url(/IMG/mob5_fon.png) no-repeat;
+
+}
+#FEEDINGS {
+
+    display: flex;
+    min-width: 320px;
+    height: 767px;
+    flex-direction: column;
+    align-content: center;
+    flex-flow: column wrap;
+    
+    
+}
+.FEEDINGS-TEXT {
+    display: flex;
+    width: 270px;
+    min-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.MOB6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+    min-width: 320px;
+    height: 767px;
+    gap: 20px;
+    background: url(/IMG/mob6_fon.png) no-repeat;
+
+}
