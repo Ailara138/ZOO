@@ -106,9 +106,27 @@
     letter-spacing: normal;
     font-size: calc(var(--index) * .73);
     line-height: 3;
+
 }
 
-.button-start {
+/*.come {
+    height: 100vh;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.WELCOME {
+    background-image: url(/IMG/welcome-button.png);
+    background-size: cover;
+    width: 205px;
+    height: 53px;
+
+
+}*/
+/*.button-start {
     font-family: Arial;
     font-weight: 600;
     text-transform: uppercase;
@@ -128,14 +146,7 @@
 .layer-5,
 .layer-6 {
     pointer-events: none;
-}
-
-
-
-
-
-
-
+}*/
 
 
 
@@ -154,22 +165,11 @@
 }
 
 .CONTENT-LEFT {
- /*   width: 720px;
-    height: 532px;
-    text-align: left;
-    padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
-    text-transform: uppercase;
-    font-size: calc(var(--index) * .71);
-    letter-spacing: -.02vw;
-    margin-top: calc(var(--index) * 2.5);*/
-
     width: 480px;
     min-height: auto;
-    margin-left: 30px;
+    margin-left: 70px;
     margin-top: 460px;
     text-align: left;
-
-
 
 }
 
@@ -225,21 +225,16 @@ p2 {
 
 
 .CONTENT-RIGHT {
-    /*width: 100px;
-    min-height: auto;
-    margin-top: 650px;
-    margin-left: 280px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;*/
 
-    width: 100px;
-    min-height: auto;
-    margin-top: 650px;
-    margin-left: 280px;
-    padding: 10px;
+    width: 400px;
+    height: 300;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding-top: 500px;
+    padding-left: 450px;
 }
 
 .SERVICE {
@@ -258,87 +253,23 @@ p2 {
 
 }
 
-/*.contacts_pages {
-    height: 100vh;
-	min-height: auto;
-	display: flex;
-	background-size: cover;
-	background-position: center;
-    background-image: url(/img/CONTACTS_page.png);
-}
-
-.Fon_service {
-    height: 100vh;
-	min-height: auto;
-	background-size: cover;
-	background-position: center;
-    background-image: url(/img/Fon_service.png);
-}
-
-/*.COLUMNS {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: flex-start;
-    width: auto;    
-    min-height: auto;
-    gap: 50px;
-    padding: 40px;
-
-}*/
-
 .HITSWITHKIDS p1 {
     text-align: center;
 }
 
-
-
-
-
-
 /*страница 3*/
 
 main {
-
-    /*width: 100vw;
     height: 100vh;
-	display: flex;
-    flex-direction: column;
-	background-size: cover;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-
-
-    /*width: 1440px;
-    height: 1024px;
-    flex-shrink: 0;
-    background: #F3EED8;
+    min-height: auto;
+    background-color: #F3EED8;
     display: flex;
     columns: wrap;
-    flex-shrink: 0;
     position: relative;
     margin: auto;
     flex-direction: column;
-    flex-wrap: wrap;   */
-
-    /*display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-start;
-    width: 1440px;
-    height: 1024px;
-    
-    */
-    height: 100vh;
-    min-height: auto;
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #F3EED8;
-    align-content: flex-start;
-
+    justify-content: space-between;
 
 }
 
@@ -350,7 +281,7 @@ main {
     font-size: 52px;
     font-style: normal;
     font-weight: 400;
-    line-height: 137.013%;
+    line-height: 137%;
 }
 
 .HIGHLIGHTS-TEXT>p>span,
@@ -361,7 +292,7 @@ main {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 137.013%;
+    line-height: 137%;
 }
 
 .HIGHLIGHTS-TEXT>p,
@@ -372,36 +303,39 @@ main {
     font-size: 18px;
     font-style: normal;
     font-weight: 350;
-    line-height: 137.013%;
+    line-height: 137%;
+
 }
 
 #HIGHLIGHTS {
 
     display: flex;
-    min-width: 480px;
+    width: 480px;
     height: 1024px;
     flex-direction: column;
-    justify-content: space-between;
-    
-
-
-}
-
-.HIGHLIGHTS-TEXT {
-    display: flex;
-    width: 419px;
-    height: 638px;
-    flex-direction: column;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
 
 }
-
 
 .IMG_1 {
     display: flex;
     height: 386px;
     justify-content: center;
     align-items: center;
+    padding: 100px 0px 0px 0px;
+
+}
+
+
+.HIGHLIGHTS-TEXT {
+    display: flex;
+    width: 419px;
+    height: 638px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 22px;
 
 
 }
@@ -409,16 +343,20 @@ main {
 #HITS-WITH-KIDS {
     width: 480px;
     height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
 }
 
 .HITS-WITH-KIDS-TEXT {
     display: flex;
     height: 1024px;
     padding: 0px 39px 0px 22px;
+    align-content: center;
     flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    align-content: flex-start;
+    justify-content: flex-start;
 }
 
 #FEEDINGS {
@@ -426,19 +364,19 @@ main {
     width: 480px;
     height: 1024px;
     flex-direction: column;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
+
 }
 
 .FEEDINGS-TEXT {
     display: flex;
     width: 419px;
     height: 680px;
+    align-content: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-
-
+    justify-content: flex-start;
+    padding: 0px 0px 0px 22px;
 
 }
 
@@ -446,37 +384,27 @@ main {
     display: flex;
     height: 344px;
     justify-content: center;
+    align-items: center;
     flex-shrink: 0;
-    align-self: flex-end;
+    padding: 100px 0px 0px 0px;
+
 }
 
 /*страницап 4*/
 
-
-
 .block {
-    /*height: 100vh;
-	min-height: auto;
-	display: flex;
-	background-size: cover;
-	background-position: center;
-    align-items: center;
-	justify-content: center;*/
-
-    width: 1440px;
-    height: 1024px;
+    height: 100vh;
+    min-height: auto;
     flex-shrink: 0;
     background-color: #F3EED8;
     display: flex;
     columns: wrap;
-    flex-shrink: 0;
     position: relative;
     margin: auto;
+    padding: 20px;
     flex-direction: column;
     flex-wrap: wrap;
-
-
-
+    justify-content: space-around;
 
 }
 
@@ -484,7 +412,7 @@ main {
     display: flex;
     width: 897px;
     height: 658px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
     
@@ -497,6 +425,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    padding-left: 40px;
+
 }
 
 .block3 {
@@ -509,4 +439,6 @@ main {
     width: 359px;
     height: 266px;
     flex-shrink: 0;
+    padding-left: 40px;
+
 }
